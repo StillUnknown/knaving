@@ -1,0 +1,42 @@
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #676f75
+}
+
+.li {
+    float: right;
+}
+
+.li:hover {
+    border-bottom: 1px solid white;
+}
+
+.item:last-child {
+    border-right: none;
+}
+
+.link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.image {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px 0 0 10px;
+}
+
+.imgContainer {
+    background-color: #676f75
+}

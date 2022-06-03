@@ -1,7 +1,9 @@
 const AboutView = () => {
     return (
         <>
-            <h1>AboutView</h1>
+            <div>
+                <h1>AboutView</h1>
+            </div>
         </>
     )
 }
