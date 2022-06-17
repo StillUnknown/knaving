@@ -42,9 +42,6 @@ const ContactView = () => {
                 {popup && <Popup popup={popup} setPopup={setPopup}/>}
                 <section className={popup ? 'social-media dark': "social-media"}>
                 </section>
-
-
-
             </div>
         </>
     )
