@@ -1,0 +1,67 @@
+.img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 40px 50px 0 60px;
+}
+
+.nameTextStyle {
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.infoTextStyle {
+    font-size: 1.3em;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .img {
+        height: 320px;
+        width: 320px;
+        border-radius: 50%;
+        margin: 100px 200px 30px 260px;
+        text-align: center;
+    }
+
+    .nameTextStyle {
+        font-size: 2em;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .infoTextStyle {
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .img {
+        height: 320px;
+        width: 320px;
+        border-radius: 50%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 70px;
+    }
+
+    .nameTextStyle {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .infoTextStyle {
+        font-size: 1em;
+    }
+
+}
+

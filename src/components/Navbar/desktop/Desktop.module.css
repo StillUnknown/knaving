@@ -8,7 +8,9 @@
     margin: 0;
     padding: 20px;
     overflow: hidden;
-    background-color: #676f75
+    background-color: #676f75;
+    opacity: 0.8;
+    height: 50px;
 }
 
 .li {
@@ -38,5 +40,6 @@
 }
 
 .imgContainer {
-    background-color: #676f75
+    background-color: #676f75;
+    opacity: 0.8;
 }

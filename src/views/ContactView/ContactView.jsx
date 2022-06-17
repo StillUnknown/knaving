@@ -28,7 +28,7 @@ const ContactView = () => {
             <div className='contact-container' id="contact">
                 <Footer popup={popup}/>
                 <Info popup={popup}/>
-                <p id="form" className='quick-message'>Send me a message</p>
+                <p id="form" className='quick-message'>Contact me</p>
                 <form className={popup ? "form dark": "form"} ref={form} onSubmit={sendMail}>
                     <label className='label'>Name</label>
                     <input required type="text" name="user_name" placeholder='Your name' className='name-input' />
